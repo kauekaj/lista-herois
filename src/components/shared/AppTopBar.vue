@@ -42,5 +42,6 @@ export default {
 <style scoped>
   .app-top-bar a {
     text-decoration: none;
+    color: black;
   } 
 </style>

@@ -1,22 +1,22 @@
 <template>
   <v-app>
-    <AppTopBar/>
+    <AppTopBar />
+
     <v-main>
-      <v-container><MeuInicio/></v-container>
+      <v-container><router-view/></v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-
-import MeuInicio from './components/MeuInicio.vue'
-import AppTopBar from './components/shared/AppTopBar.vue'
+import AppTopBar from "./components/shared/AppTopBar.vue";
 
 export default {
-  name: 'App',
-    components: {
-    MeuInicio,
-    AppTopBar
+  name: "App",
+
+  components: {
+    AppTopBar,
   },
 };
 </script>
+
